@@ -6554,7 +6554,11 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 .text-muted {
-  color: #818a91 !important;
+    color: #818a91 !important;
+    font-size: 0.7rem;
+    text-align: center;
+    width: 100%;
+    display: block;
 }
 
 a.text-muted:focus, a.text-muted:hover {
