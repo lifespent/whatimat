@@ -6,7 +6,13 @@ html {
 }
 body {
   /* Margin bottom by footer height */
-  margin-bottom: 60px;
+  margin-bottom: 120px;;
+}
+
+@media (min-width: 34rem) {
+  body {
+    margin-bottom:60px;
+  }
 }
 .footer {
     position: absolute;
